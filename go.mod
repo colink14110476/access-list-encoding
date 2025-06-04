@@ -1,4 +1,4 @@
-module github.com/colink14110476/accesslist-bid-encoding
+module github.com/colink14110476/access-list-encoding
 
 go 1.23.0
 

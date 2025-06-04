@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	"github.com/colink14110476/accesslist-bid-encoding/types"
+	"github.com/colink14110476/access-list-encoding/types"
 )
 
 func electra() {
