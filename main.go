@@ -23,7 +23,9 @@ func electra() {
 	if err != nil {
 		log.Fatalf("failed unmarshalling ssz: %s", err)
 	}
-
+	for i, d := range req.AccesslistData.Addresses {
+		fmt.Println("Address", i, ":", d)
+	}
 	roundtripped, err := req.MarshalSSZ()
 
 	if err != nil {
